@@ -1,6 +1,6 @@
-# My Reads
+# Mobile Flashcards
 
-This is a simple react application that allows you to search & add books, then categorize them into currently reading, want to read and read.
+This is a simple react native application that mimics flashcards so that user can quiz themselves
 
 ### Prerequisites
 ```
