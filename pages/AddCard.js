@@ -41,6 +41,10 @@ class AddCard extends React.Component {
 
     onAddCard = () => {
         const { answer, question } = this.state;
+        if (!question || !answer) { 
+            alert("please, fill the form");
+            return;
+        };
         const { deck } = this.props.navigation.state.params;
         deck.questions = deck.questions.concat(this.state);
         this.props.screenProps.addCard(deck);
